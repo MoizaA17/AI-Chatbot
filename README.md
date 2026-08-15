@@ -37,21 +37,20 @@ These steps assume you have Python installed but nothing else set up.
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone <[your-repo-url](https://github.com/MoizaA17/AI-Chatbot)>
+cd <[your-repo-folder](https://github.com/MoizaA17/AI-Chatbot)>
 ```
 
 ### 2️⃣ Create a virtual environment (recommended)
 ```bash
-python -m venv venv
-source venv/bin/activate   # on Windows: venv\Scripts\activate
+python -m venv .venv
+source .venv/bin/activate   # on Windows: venv\Scripts\activate
 ```
 
 ### 3️⃣ Install dependencies
 ```bash
-pip install streamlit python-dotenv google-genai
+pip install -r requirements.txt
 ```
-(Or, if you have a `requirements.txt` in the repo: `pip install -r requirements.txt`)
 
 ### 4️⃣ Get a Gemini API key
 - Go to [Google AI Studio](https://aistudio.google.com/app/apikey) 🔗
@@ -87,7 +86,9 @@ Suggested setup:
 - Save your image(s) there, e.g. `screenshots/chat-example.png`
 - Reference them in this README like:
   ```markdown
-  ![Chat interface](screenshots/chat-example.png)
+  ![Chat interface](Screenshot 1.png)
+  ![Chat interface](Screenshot 2.png)
+  ![Chat interface](Screenshot 3.png)
   ```
 
 ---
